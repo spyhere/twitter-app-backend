@@ -376,7 +376,7 @@ The email should be verified!
 ### **Profile**
 <hr>
 
-GET `profile` Get profile of a current user
+GET `users/profile` Get profile of a current user
 
 **Headers parameters**
 
@@ -398,7 +398,7 @@ GET `profile` Get profile of a current user
 </pre>
 <hr>
 
-POST `profile/avatar` Attach avatar to the current profile
+POST `users/profile/avatar` Attach avatar to the current profile
 
 The email should be verified!
 
@@ -426,7 +426,7 @@ The email should be verified!
 </pre>
 <hr>
 
-DELETE `profile/avatar` Delete avatar from the current profile
+DELETE `users/profile/avatar` Delete avatar from the current profile
 
 The email should be verified!
 
