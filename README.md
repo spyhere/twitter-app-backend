@@ -229,7 +229,7 @@ POST `reset-password/update/$passwordToken` Reset password
 ### **Posts**
 <hr>
 
-GET `$userId/posts` Get user's posts
+GET `users/$userId/posts` Get user's posts
 
 The email should be verified!
 
